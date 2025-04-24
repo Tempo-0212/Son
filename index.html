@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Son</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div>
+    <input id="numberInput" type="number" placeholder="Enter your number" />
+    <button onclick="setNumber()">Send</button>
+  </div>
+
+  <div id="counter-box">
+    <button onclick="decrease()">-</button>
+    <div id="display">0</div>
+    <button onclick="increase()">+</button>
+  </div>
+
+  <div class="color-picker">
+    <label for="colorSelect">Select color:</label>
+    <input type="color" id="colorSelect" onchange="changeColor()">
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
